@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2666411277586796224}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RedBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 5129285152134826283}
   - component: {fileID: 4471022618877879771}
   - component: {fileID: 8702797613348757970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}

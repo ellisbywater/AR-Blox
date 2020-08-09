@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4088820723797501238}
   m_Layer: 8
-  m_Name: PinkBlock
+  m_Name: GemStone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
