@@ -46,6 +46,16 @@ public class Builder : MonoBehaviour
         selectedBlock = blockID;
     }
 
+    public void OnDestroyButtonPressed()
+    {
+        RaycastHit hitInfo;
+        Ray rayToCast = Camera.main.ViewportPointToRay(new Vector2(.5f,.5f));
+        if (Physics.Raycast(rayToCast, out hitInfo, 200f, blockLayer))
+        {
+            Destroy(hitInfo.collider.gameObject);
+        }
+    }
+
     void Build(Vector3 position, Quaternion rotation)
     {
         Instantiate(blocks[selectedBlock], position, rotation);
